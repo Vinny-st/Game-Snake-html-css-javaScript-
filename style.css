@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.24);
+}
+
