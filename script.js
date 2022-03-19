@@ -9,13 +9,13 @@ snake [0] = { /* */
 
 function criarBG() { /*funcao que vai desenhar e definir o cor no canvas*/
     context.fillStyle = "lightgreen"; /* fillstyle trabalha com o stilo do canvas,*/
-    context.fillRect(0, 16 * box, 16 * box); /*fill react desenha o retangulo onde vai rodar jogo*/
+    context.fillRect(0, 0, 16 * box, 16 * box); /*fill react desenha o retangulo onde vai rodar jogo*/
 }
 function criarCobrinha(){ /* for percorre todo o array e vai incrementar*/
 /*vai pintar e pintar tamanho certo*/
     for(i=0; i < snake.length; i++){
     context.fillStyle = "green";
-    context.fillRect(snake[i]).x, snake[i].y, box, box);
+    context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
 
