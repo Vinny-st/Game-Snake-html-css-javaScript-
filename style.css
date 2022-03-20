@@ -1,9 +1,22 @@
-*{
-    box-sizing: border-box;
-}
+
 body{
+    height: 95vh;
+    width: 90%;
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 255, 255, 0.24);
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(134, 75, 7, 0.534);
 }
+h1{
+    display: flex;
+    justify-content: center;
+    border: solid black 5px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: aqua;
 
+}
+canvas{
+    border: solid maroon 5px;
+}
